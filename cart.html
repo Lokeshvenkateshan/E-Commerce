@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h2><i class="ri-shopping-bag-line" style="color: #ff7800;"></i>Amaze-on</h2>
+    </header>
+    <div class="btn" style="margin-left: 20px;">
+        <a href="index.html"><button>Back</button> </a>
+    </div>
+    <div class="hi">
+        <center><h2>My Cart <i class="ri-shopping-cart-line" style="color: #ff7800;" ></i> </h2></center>
+    </div>
+
+    <div class="produt">          
+        <div class="abc">
+            <img src="images/brownshirt.png" alt="shirt">   
+            <center>
+                <h4>Generic</h4>
+                <p>Sweatshirt Set For Kids | Full Sleeve</p>
+                <b>₹349</b>
+            </center>
+            <div class="button">
+                <center><button id="q">Buy Now</button></center>
+                <script>
+                    var buy = document.getElementById("q")
+                    buy.addEventListener("click", function () { alert("Order Placed. Thank You!!") })
+                </script>    
+                <center><button>Remove</button></center>
+            </div>
+        </div>
+        <div class="abc">
+            <img src="images/roseskirt.png" alt="shirt" style="height: 40vh;">   
+            <center>
+                <h4>Hopscotch</h4>
+                <p>Girls Princy Dress | Fit and Flare Dress</p>
+                <b>₹669</b>
+            </center>
+            <div class="button">
+                <center><button id="r">Buy Now</button></center>
+                <script>
+                    var buy = document.getElementById("r")
+                    buy.addEventListener("click", function () { alert("Order Placed. Thank You!!") })
+                </script>    
+                <center><button>Remove</button></center>
+            </div>
+        </div>
+        <div class="abc">
+            <img src="images/blueskirt.png" alt="shirt" style="height: 40vh;">   
+            <center style="padding-top: 10px;">
+                <h4>Evergreen</h4>
+                <p>Girls Princy Dress | Fit and Flare Dress</p>
+                <b>₹338</b>
+            </center>
+            <div class="button">
+                <center><button id="s">Buy Now</button></center>
+                <script>
+                    var buy = document.getElementById("s")
+                    buy.addEventListener("click", function () { alert("Order Placed. Thank You!!") })
+                </script>    
+                <center><button>Remove</button></center>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
